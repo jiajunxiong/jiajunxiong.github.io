@@ -4,12 +4,12 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://jjxiong.me/"/>
   <updated>2017-03-30T02:32:17.813Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://jjxiong.me/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Jiajun Xiong</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/03/30/hello-world/"/>
-    <id>http://yoursite.com/2017/03/30/hello-world/</id>
+    <link href="http://jjxiong.me/2017/03/30/hello-world/"/>
+    <id>http://jjxiong.me/2017/03/30/hello-world/</id>
     <published>2017-03-30T02:32:17.808Z</published>
     <updated>2017-03-30T02:32:17.813Z</updated>
     
