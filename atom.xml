@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-04-07T03:43:02.023Z</updated>
+  <updated>2017-04-10T02:57:56.617Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>东涌-贝澳露营</title>
+    <link href="http://jjxiong.me/2017/04/10/%E4%B8%9C%E6%B6%8C-%E8%B4%9D%E6%BE%B3%E9%9C%B2%E8%90%A5/"/>
+    <id>http://jjxiong.me/2017/04/10/东涌-贝澳露营/</id>
+    <published>2017-04-10T01:31:02.000Z</published>
+    <updated>2017-04-10T02:57:56.617Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="./source/images/微信图片_20170410103828.jpg" alt=""><br><img src="./source/images/微信图片_20170410104012.jpg" alt=""><br><img src="./source/images/unnamed.jpg" alt=""><br><img src="./source/images/Video1.mp4" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;./source/images/微信图片_20170410103828.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;./source/images/微信图片_20170410104012.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;./s
+    
+    </summary>
+    
+      <category term="Funs" scheme="http://jjxiong.me/categories/Funs/"/>
+    
+      <category term="Camping" scheme="http://jjxiong.me/categories/Funs/Camping/"/>
+    
+    
+      <category term="东涌-贝澳露营" scheme="http://jjxiong.me/tags/%E4%B8%9C%E6%B6%8C-%E8%B4%9D%E6%BE%B3%E9%9C%B2%E8%90%A5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>First Day of Work</title>
     <link href="http://jjxiong.me/2017/04/07/first-day-of-work/"/>
     <id>http://jjxiong.me/2017/04/07/first-day-of-work/</id>
     <published>2017-04-07T03:37:06.000Z</published>
-    <updated>2017-04-07T03:43:02.023Z</updated>
+    <updated>2017-04-10T01:55:48.166Z</updated>
     
     <content type="html"><![CDATA[<p>2017年2月27号第一天在cash algo上班，很开心</p>
 ]]></content>
@@ -32,6 +57,14 @@
     
     </summary>
     
+      <category term="Work" scheme="http://jjxiong.me/categories/Work/"/>
+    
+      <category term="Cash Algo Finance Group" scheme="http://jjxiong.me/categories/Work/Cash-Algo-Finance-Group/"/>
+    
+    
+      <category term="First day of work" scheme="http://jjxiong.me/tags/First-day-of-work/"/>
+    
+      <category term="Happy" scheme="http://jjxiong.me/tags/Happy/"/>
     
   </entry>
   
