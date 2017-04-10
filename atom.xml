@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-04-10T09:13:46.145Z</updated>
+  <updated>2017-04-10T09:29:53.652Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jjxiong.me/2017/04/10/%E4%B8%9C%E6%B6%8C-%E8%B4%9D%E6%BE%B3%E9%9C%B2%E8%90%A5/"/>
     <id>http://jjxiong.me/2017/04/10/东涌-贝澳露营/</id>
     <published>2017-04-10T01:31:02.000Z</published>
-    <updated>2017-04-10T09:13:46.145Z</updated>
+    <updated>2017-04-10T09:29:53.652Z</updated>
     
     <content type="html"><![CDATA[<h2 id="行程"><a href="#行程" class="headerlink" title="行程"></a>行程</h2><p>4月8号9am出发，4月9号2pm返回<br>粉领279x到青衣站，MTR到东涌站，3M到罗村站</p>
 <h2 id="烧烤"><a href="#烧烤" class="headerlink" title="烧烤"></a>烧烤</h2><p>烤鸡翅的时候火候很重要，很重要，很重要…不要太大火，不然会烤焦的。</p>
@@ -34,10 +34,12 @@
     
     </summary>
     
-      <category term="Funs" scheme="http://jjxiong.me/categories/Funs/"/>
+      <category term="Fun" scheme="http://jjxiong.me/categories/Fun/"/>
     
-      <category term="Camping" scheme="http://jjxiong.me/categories/Funs/Camping/"/>
+      <category term="Camping" scheme="http://jjxiong.me/categories/Fun/Camping/"/>
     
+    
+      <category term="Happy" scheme="http://jjxiong.me/tags/Happy/"/>
     
       <category term="东涌-贝澳露营" scheme="http://jjxiong.me/tags/%E4%B8%9C%E6%B6%8C-%E8%B4%9D%E6%BE%B3%E9%9C%B2%E8%90%A5/"/>
     
