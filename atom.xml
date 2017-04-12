@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-04-11T00:59:00.095Z</updated>
+  <updated>2017-04-12T09:27:22.201Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>期权、期货及其他衍生产品</title>
+    <link href="http://jjxiong.me/2017/04/12/%E6%9C%9F%E6%9D%83%E3%80%81%E6%9C%9F%E8%B4%A7%E5%8F%8A%E5%85%B6%E4%BB%96%E8%A1%8D%E7%94%9F%E4%BA%A7%E5%93%81/"/>
+    <id>http://jjxiong.me/2017/04/12/期权、期货及其他衍生产品/</id>
+    <published>2017-04-12T07:10:59.000Z</published>
+    <updated>2017-04-12T09:27:22.201Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="第一章-序言"><a href="#第一章-序言" class="headerlink" title="第一章 序言"></a>第一章 序言</h2><h3 id="1-1-交易所市场"><a href="#1-1-交易所市场" class="headerlink" title="1.1 交易所市场"></a>1.1 交易所市场</h3><pre><code>将至合约（to-arrive contract）
+电子交易
+</code></pre><h3 id="1-2-场外市场（over-the-counter-market-OTC）"><a href="#1-2-场外市场（over-the-counter-market-OTC）" class="headerlink" title="1.2 场外市场（over-the-counter market, OTC）"></a>1.2 场外市场（over-the-counter market, OTC）</h3><pre><code>买入价（bid price）
+卖出价（offer price）
+</code></pre><h3 id="1-3-远期合约（forward-contract）"><a href="#1-3-远期合约（forward-contract）" class="headerlink" title="1.3 远期合约（forward contract）"></a>1.3 远期合约（forward contract）</h3><pre><code>场外交易市场进行
+即期合约（spot contract）
+长头寸（long position, 或称多头）
+短头寸（short position, 或称空头）
+</code></pre><h3 id="1-4-期货合约（futures-contract）"><a href="#1-4-期货合约（futures-contract）" class="headerlink" title="1.4 期货合约（futures contract）"></a>1.4 期货合约（futures contract）</h3><pre><code>交易所进行
+</code></pre><h3 id="1-5-期权合约（option-contract）"><a href="#1-5-期权合约（option-contract）" class="headerlink" title="1.5 期权合约（option contract）"></a>1.5 期权合约（option contract）</h3><pre><code>看涨期权（call option）
+看跌期权（put option）
+执行价格（exercise price）或敲定价格（strike price）
+到期日（expiration date）或满期日（maturity date）
+美式期权（American option）
+欧式期权（European option）
+期权的买入方称为持有长（多）头寸， 期权的卖出方称为短（空）头寸，卖出期权称为对期权承约（writing the option）
+</code></pre><h3 id="1-6-交易员的种类"><a href="#1-6-交易员的种类" class="headerlink" title="1.6 交易员的种类"></a>1.6 交易员的种类</h3><pre><code>对冲者（hedger）、投机者（speculator）、套利者（arbitrageur）
+</code></pre><h3 id="1-7-对冲者"><a href="#1-7-对冲者" class="headerlink" title="1.7 对冲者"></a>1.7 对冲者</h3><pre><code>避免面对将来资产不利波动的风险
+期货对冲与期权对冲差别
+</code></pre><h3 id="1-8-投机者"><a href="#1-8-投机者" class="headerlink" title="1.8 投机者"></a>1.8 投机者</h3><pre><code>旨在获利，对资产的上涨进行下注或者对资产的下跌进行下注
+期货投机潜在的损失以及收益都很大，期权投机的损失不会超过其所付的期权费用
+</code></pre><h3 id="1-9-套利者"><a href="#1-9-套利者" class="headerlink" title="1.9 套利者"></a>1.9 套利者</h3><pre><code>套利包括同时进入两种或更多的交易来锁定无风险盈利
+</code></pre><h3 id="1-10-危害"><a href="#1-10-危害" class="headerlink" title="1.10 危害"></a>1.10 危害</h3><pre><code>1990年巴林银行 尼克利森
+2002年爱尔兰银行 约翰 卢斯内
+2008年法国兴业银行 杰洛米 科维尔
+</code></pre><h2 id="第二章-期货市场的运作机制"><a href="#第二章-期货市场的运作机制" class="headerlink" title="第二章 期货市场的运作机制"></a>第二章 期货市场的运作机制</h2><h3 id="2-1-背景知识"><a href="#2-1-背景知识" class="headerlink" title="2.1 背景知识"></a>2.1 背景知识</h3><pre><code>期货的长头寸（long futures position），期货的短头寸（short futures position）
+</code></pre><h3 id="2-2-期货合约的规定"><a href="#2-2-期货合约的规定" class="headerlink" title="2.2 期货合约的规定"></a>2.2 期货合约的规定</h3><pre><code>资产、合约的规模、交割的安排、交割月份、报价、价格和头寸的限额
+</code></pre><h3 id="2-3-期货价格收敛到即期价格的特性"><a href="#2-3-期货价格收敛到即期价格的特性" class="headerlink" title="2.3 期货价格收敛到即期价格的特性"></a>2.3 期货价格收敛到即期价格的特性</h3><h3 id="2-4-保证金的运作"><a href="#2-4-保证金的运作" class="headerlink" title="2.4 保证金的运作"></a>2.4 保证金的运作</h3><h3 id="2-5-场外市场"><a href="#2-5-场外市场" class="headerlink" title="2.5 场外市场"></a>2.5 场外市场</h3><h3 id="2-6-市场报价"><a href="#2-6-市场报价" class="headerlink" title="2.6 市场报价"></a>2.6 市场报价</h3><h3 id="2-7-交割"><a href="#2-7-交割" class="headerlink" title="2.7 交割"></a>2.7 交割</h3><pre><code>第一交割通知日（first notice day）,最后交割通知日（last notice day），最后交易日（last trading day）
+</code></pre><h3 id="2-8-交易员类型和交易指令类型"><a href="#2-8-交易员类型和交易指令类型" class="headerlink" title="2.8 交易员类型和交易指令类型"></a>2.8 交易员类型和交易指令类型</h3><pre><code>期货佣金经纪人（futures commission broker, FCM），自营经纪人（local）
+</code></pre><h3 id="2-9-制度"><a href="#2-9-制度" class="headerlink" title="2.9 制度"></a>2.9 制度</h3><h3 id="2-10-会计和税收"><a href="#2-10-会计和税收" class="headerlink" title="2.10 会计和税收"></a>2.10 会计和税收</h3><h3 id="2-11-远期与期货合约比较"><a href="#2-11-远期与期货合约比较" class="headerlink" title="2.11 远期与期货合约比较"></a>2.11 远期与期货合约比较</h3><h2 id="第三章-利用期货的对冲策略"><a href="#第三章-利用期货的对冲策略" class="headerlink" title="第三章 利用期货的对冲策略"></a>第三章 利用期货的对冲策略</h2><h3 id="3-1-基本原理"><a href="#3-1-基本原理" class="headerlink" title="3.1 基本原理"></a>3.1 基本原理</h3><pre><code>短头寸对冲（short hedge），长头寸对冲（long hedge）
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;第一章-序言&quot;&gt;&lt;a href=&quot;#第一章-序言&quot; class=&quot;headerlink&quot; title=&quot;第一章 序言&quot;&gt;&lt;/a&gt;第一章 序言&lt;/h2&gt;&lt;h3 id=&quot;1-1-交易所市场&quot;&gt;&lt;a href=&quot;#1-1-交易所市场&quot; class=&quot;headerlink
+    
+    </summary>
+    
+      <category term="Books" scheme="http://jjxiong.me/categories/Books/"/>
+    
+      <category term="Quants" scheme="http://jjxiong.me/categories/Books/Quants/"/>
+    
+    
+      <category term="Reading" scheme="http://jjxiong.me/tags/Reading/"/>
+    
+  </entry>
   
   <entry>
     <title>东涌-贝澳露营</title>
