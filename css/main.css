@@ -289,7 +289,6 @@ a:hover {
 blockquote {
   margin: 0;
   padding: 0;
-  word-break: break-all;
 }
 img {
   display: block;
@@ -1692,7 +1691,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9c1aff;
+  background: #ffff71;
 }
 .links-of-blogroll {
   font-size: 13px;
