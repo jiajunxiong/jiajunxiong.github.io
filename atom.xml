@@ -50,26 +50,19 @@
     <link href="http://jjxiong.me/2017/04/12/%E6%9C%9F%E6%9D%83%E3%80%81%E6%9C%9F%E8%B4%A7%E5%8F%8A%E5%85%B6%E4%BB%96%E8%A1%8D%E7%94%9F%E4%BA%A7%E5%93%81/"/>
     <id>http://jjxiong.me/2017/04/12/期权、期货及其他衍生产品/</id>
     <published>2017-04-12T07:10:59.000Z</published>
-    <updated>2017-04-18T07:38:07.335Z</updated>
+    <updated>2017-04-18T07:43:25.350Z</updated>
     
     <content type="html"><![CDATA[<p><strong>期权、期货及其他衍生产品</strong></p>
+<hr>
 <ul>
-<li><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><h3 id="交易所市场"><a href="#交易所市场" class="headerlink" title="交易所市场"></a>交易所市场</h3><p>  将至合约（to-arrive contract）<br>  电子交易</p>
-<h3 id="场外市场（over-the-counter-market-OTC）"><a href="#场外市场（over-the-counter-market-OTC）" class="headerlink" title="场外市场（over-the-counter market, OTC）"></a>场外市场（over-the-counter market, OTC）</h3><p>  买入价（bid price）<br>  卖出价（offer price）</p>
-<h3 id="远期合约（forward-contract）"><a href="#远期合约（forward-contract）" class="headerlink" title="远期合约（forward contract）"></a>远期合约（forward contract）</h3><p>  场外交易市场进行<br>  即期合约（spot contract）<br>  长头寸（long position, 或称多头）<br>  短头寸（short position, 或称空头）</p>
-<h3 id="期货合约（futures-contract）"><a href="#期货合约（futures-contract）" class="headerlink" title="期货合约（futures contract）"></a>期货合约（futures contract）</h3><p>  交易所进行</p>
-<h3 id="期权合约（option-contract）"><a href="#期权合约（option-contract）" class="headerlink" title="期权合约（option contract）"></a>期权合约（option contract）</h3><p>  看涨期权（call option）<br>  看跌期权（put option）<br>  执行价格（exercise price）或敲定价格（strike price）<br>  到期日（expiration date）或满期日（maturity date）<br>  美式期权（American option）<br>  欧式期权（European option）<br>  期权的买入方称为持有长（多）头寸， 期权的卖出方称为短（空）头寸，卖出期权称为对期权承约（writing the option）</p>
-<h3 id="交易员的种类"><a href="#交易员的种类" class="headerlink" title="交易员的种类"></a>交易员的种类</h3><p>  对冲者（hedger）、投机者（speculator）、套利者（arbitrageur）</p>
-<h3 id="对冲者"><a href="#对冲者" class="headerlink" title="对冲者"></a>对冲者</h3><p>  避免面对将来资产不利波动的风险<br>  期货对冲与期权对冲差别</p>
-<h3 id="投机者"><a href="#投机者" class="headerlink" title="投机者"></a>投机者</h3><p>  旨在获利，对资产的上涨进行下注或者对资产的下跌进行下注<br>  期货投机潜在的损失以及收益都很大，期权投机的损失不会超过其所付的期权费用</p>
-<h3 id="套利者"><a href="#套利者" class="headerlink" title="套利者"></a>套利者</h3><p>  套利包括同时进入两种或更多的交易来锁定无风险盈利</p>
-<h3 id="危害"><a href="#危害" class="headerlink" title="危害"></a>危害</h3><p>  1990年巴林银行 尼克利森<br>  2002年爱尔兰银行 约翰 卢斯内<br>  2008年法国兴业银行 杰洛米 科维尔</p>
-</li>
-<li><h2 id="期货市场的运作机制"><a href="#期货市场的运作机制" class="headerlink" title="期货市场的运作机制"></a>期货市场的运作机制</h2><h3 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h3><p>  期货的长头寸（long futures position），期货的短头寸（short futures position）</p>
-<h3 id="期货合约的规定"><a href="#期货合约的规定" class="headerlink" title="期货合约的规定"></a>期货合约的规定</h3><p>  资产、合约的规模、交割的安排、交割月份、报价、价格和头寸的限额</p>
-<h3 id="期货价格收敛到即期价格的特性"><a href="#期货价格收敛到即期价格的特性" class="headerlink" title="期货价格收敛到即期价格的特性"></a>期货价格收敛到即期价格的特性</h3><h3 id="保证金的运作"><a href="#保证金的运作" class="headerlink" title="保证金的运作"></a>保证金的运作</h3><h3 id="场外市场"><a href="#场外市场" class="headerlink" title="场外市场"></a>场外市场</h3><h3 id="市场报价"><a href="#市场报价" class="headerlink" title="市场报价"></a>市场报价</h3><h3 id="交割"><a href="#交割" class="headerlink" title="交割"></a>交割</h3><p>  第一交割通知日（first notice day）,最后交割通知日（last notice day），最后交易日（last trading day）</p>
-<h3 id="交易员类型和交易指令类型"><a href="#交易员类型和交易指令类型" class="headerlink" title="交易员类型和交易指令类型"></a>交易员类型和交易指令类型</h3><p>  期货佣金经纪人（futures commission broker, FCM），自营经纪人（local）</p>
-<h3 id="制度"><a href="#制度" class="headerlink" title="制度"></a>制度</h3><h3 id="会计和税收"><a href="#会计和税收" class="headerlink" title="会计和税收"></a>会计和税收</h3><h3 id="远期与期货合约比较"><a href="#远期与期货合约比较" class="headerlink" title="远期与期货合约比较"></a>远期与期货合约比较</h3></li>
+<li><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><h3 id="交易所市场"><a href="#交易所市场" class="headerlink" title="交易所市场"></a>交易所市场</h3>  将至合约（to-arrive contract）<br>  电子交易<h3 id="场外市场（over-the-counter-market-OTC）"><a href="#场外市场（over-the-counter-market-OTC）" class="headerlink" title="场外市场（over-the-counter market, OTC）"></a>场外市场（over-the-counter market, OTC）</h3>  买入价（bid price）<br>  卖出价（offer price）<h3 id="远期合约（forward-contract）"><a href="#远期合约（forward-contract）" class="headerlink" title="远期合约（forward contract）"></a>远期合约（forward contract）</h3>  场外交易市场进行<br>  即期合约（spot contract）<br>  长头寸（long position, 或称多头）<br>  短头寸（short position, 或称空头）<h3 id="期货合约（futures-contract）"><a href="#期货合约（futures-contract）" class="headerlink" title="期货合约（futures contract）"></a>期货合约（futures contract）</h3>  交易所进行<h3 id="期权合约（option-contract）"><a href="#期权合约（option-contract）" class="headerlink" title="期权合约（option contract）"></a>期权合约（option contract）</h3>  看涨期权（call option）<br>  看跌期权（put option）<br>  执行价格（exercise price）或敲定价格（strike price）<br>  到期日（expiration date）或满期日（maturity date）<br>  美式期权（American option）<br>  欧式期权（European option）<br>  期权的买入方称为持有长（多）头寸， 期权的卖出方称为短（空）头寸，卖出期权称为对期权承约（writing the option）<h3 id="交易员的种类"><a href="#交易员的种类" class="headerlink" title="交易员的种类"></a>交易员的种类</h3>  对冲者（hedger）、投机者（speculator）、套利者（arbitrageur）<h3 id="对冲者"><a href="#对冲者" class="headerlink" title="对冲者"></a>对冲者</h3>  避免面对将来资产不利波动的风险<br>  期货对冲与期权对冲差别<h3 id="投机者"><a href="#投机者" class="headerlink" title="投机者"></a>投机者</h3>  旨在获利，对资产的上涨进行下注或者对资产的下跌进行下注<br>  期货投机潜在的损失以及收益都很大，期权投机的损失不会超过其所付的期权费用<h3 id="套利者"><a href="#套利者" class="headerlink" title="套利者"></a>套利者</h3>  套利包括同时进入两种或更多的交易来锁定无风险盈利<h3 id="危害"><a href="#危害" class="headerlink" title="危害"></a>危害</h3>  1990年巴林银行 尼克利森<br>  2002年爱尔兰银行 约翰 卢斯内<br>  2008年法国兴业银行 杰洛米 科维尔</li>
+</ul>
+<hr>
+<ul>
+<li><h2 id="期货市场的运作机制"><a href="#期货市场的运作机制" class="headerlink" title="期货市场的运作机制"></a>期货市场的运作机制</h2><h3 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h3>  期货的长头寸（long futures position），期货的短头寸（short futures position）<h3 id="期货合约的规定"><a href="#期货合约的规定" class="headerlink" title="期货合约的规定"></a>期货合约的规定</h3>  资产、合约的规模、交割的安排、交割月份、报价、价格和头寸的限额<h3 id="期货价格收敛到即期价格的特性"><a href="#期货价格收敛到即期价格的特性" class="headerlink" title="期货价格收敛到即期价格的特性"></a>期货价格收敛到即期价格的特性</h3><h3 id="保证金的运作"><a href="#保证金的运作" class="headerlink" title="保证金的运作"></a>保证金的运作</h3><h3 id="场外市场"><a href="#场外市场" class="headerlink" title="场外市场"></a>场外市场</h3><h3 id="市场报价"><a href="#市场报价" class="headerlink" title="市场报价"></a>市场报价</h3><h3 id="交割"><a href="#交割" class="headerlink" title="交割"></a>交割</h3>  第一交割通知日（first notice day）,最后交割通知日（last notice day），最后交易日（last trading day）<h3 id="交易员类型和交易指令类型"><a href="#交易员类型和交易指令类型" class="headerlink" title="交易员类型和交易指令类型"></a>交易员类型和交易指令类型</h3>  期货佣金经纪人（futures commission broker, FCM），自营经纪人（local）<h3 id="制度"><a href="#制度" class="headerlink" title="制度"></a>制度</h3><h3 id="会计和税收"><a href="#会计和税收" class="headerlink" title="会计和税收"></a>会计和税收</h3><h3 id="远期与期货合约比较"><a href="#远期与期货合约比较" class="headerlink" title="远期与期货合约比较"></a>远期与期货合约比较</h3></li>
+</ul>
+<hr>
+<ul>
 <li><h2 id="利用期货的对冲策略"><a href="#利用期货的对冲策略" class="headerlink" title="利用期货的对冲策略"></a>利用期货的对冲策略</h2><h3 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h3><p>  短头寸对冲（short hedge），长头寸对冲（long hedge）</p>
 <h3 id="用户与反对对冲的观点"><a href="#用户与反对对冲的观点" class="headerlink" title="用户与反对对冲的观点"></a>用户与反对对冲的观点</h3><h3 id="基差风险"><a href="#基差风险" class="headerlink" title="基差风险"></a>基差风险</h3><p>  基差（basis）=被对冲资产的即期价格-用于对冲的期货合约的价格<br>  S1 在t1时刻的即期价格<br>  S2 在t2时刻的即期价格<br>  F1 在t1时刻的期货价格<br>  F2 在t2时刻的期货价格<br>  b1 在t1时刻的基差<br>  b2 在t2时刻的基差<br>  b1 = S1 - F1   b2 = S2 - F2<br>  S2 + F1 - F2 = F1 + b2</p>
 <h3 id="交叉对冲（cross-hedging）"><a href="#交叉对冲（cross-hedging）" class="headerlink" title="交叉对冲（cross hedging）"></a>交叉对冲（cross hedging）</h3><p>  δS 在对冲期限内，即期价格S的变化<br>  δF 在对冲期限内，期货价格F的变化<br>  最小方差对冲比率 h* = ρ（δS/δF）</p>
@@ -77,16 +70,13 @@
 <p>  VA 被对冲头寸的实际货币价值<br>  VF 一个期货合约的货币价值（期货价格乘以QF）<br>  尾随对冲（tailing the hedge）<br>  N<em> = h</em>VA/VF</p>
 <h3 id="股指期货"><a href="#股指期货" class="headerlink" title="股指期货"></a>股指期货</h3><p>  道琼斯工业平均指数（Dow Jones Industrial Average），标准普尔500股票指数（S&amp;P500），纳斯达克100指数（Nasdaq 100），<br>  罗素1000指数（Russell 1000 Index）<br>  N* = βVA/VF β是将组合超过无风险利率的收益与股票市场超过无风险利率的收益进行回归所产生的的最佳拟合直线的斜率</p>
 <h3 id="向前滚动对冲"><a href="#向前滚动对冲" class="headerlink" title="向前滚动对冲"></a>向前滚动对冲</h3></li>
-<li><h2 id="利率"><a href="#利率" class="headerlink" title="利率"></a>利率</h2><h3 id="利率的种类"><a href="#利率的种类" class="headerlink" title="利率的种类"></a>利率的种类</h3><p>  国债利率, 伦敦同业银行拆出利率（London Interbank Offered Rate）LIBOR, 再回购利率, 无风险利率</p>
-<h3 id="利率的计算"><a href="#利率的计算" class="headerlink" title="利率的计算"></a>利率的计算</h3><p>  复利m次，投资n年 投资终值位A(1+R/m)^mn<br>  当复利频率m趋于无穷大时所对应的的利率被称为连续复利利率，投资终值为Ae^Rn    </p>
-<h3 id="零息利率"><a href="#零息利率" class="headerlink" title="零息利率"></a>零息利率</h3><p>  N年的零息利率是指在今天投入资金在连续保持N年后所得的收益率。即息利率（spot rate）或者零息利率（zero rate）</p>
-<h3 id="债券定价"><a href="#债券定价" class="headerlink" title="债券定价"></a>债券定价</h3><p>  债券收益率，平价收益率</p>
-<h3 id="国库券零息利率的确定"><a href="#国库券零息利率的确定" class="headerlink" title="国库券零息利率的确定"></a>国库券零息利率的确定</h3><h3 id="远期利率（forward-interest-rate）"><a href="#远期利率（forward-interest-rate）" class="headerlink" title="远期利率（forward interest rate）"></a>远期利率（forward interest rate）</h3><p>  由当前零息利率所蕴含出的将来一定期限的利率。</p>
-<h3 id="远期利率合约"><a href="#远期利率合约" class="headerlink" title="远期利率合约"></a>远期利率合约</h3><p>  远期利率合约（FRA）是一种场外交易，这种交易约定在将来某一段时间交易的一方将以某一利率介入或者借出固定数量的资金。</p>
-<h3 id="久期（duration）"><a href="#久期（duration）" class="headerlink" title="久期（duration）"></a>久期（duration）</h3><p>  债券的久期是指投资者收到所有现金流所要等待的平均时间。</p>
-<h3 id="曲率"><a href="#曲率" class="headerlink" title="曲率"></a>曲率</h3><h3 id="利率期限结构理论"><a href="#利率期限结构理论" class="headerlink" title="利率期限结构理论"></a>利率期限结构理论</h3><p>  预期理论（expectation theory），市场分割理论（market segmentation theory），流动性偏好理论（liquidity preference theory）</p>
-<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>  对于衍生品交易员来说，国债利率（政府借入自身货币的资金而支付的利率）和LIBOR利率（银行在行业之间为借入短期资产而支付的利率）。</p>
-</li>
+</ul>
+<hr>
+<ul>
+<li><h2 id="利率"><a href="#利率" class="headerlink" title="利率"></a>利率</h2><h3 id="利率的种类"><a href="#利率的种类" class="headerlink" title="利率的种类"></a>利率的种类</h3>  国债利率, 伦敦同业银行拆出利率（London Interbank Offered Rate）LIBOR, 再回购利率, 无风险利率<h3 id="利率的计算"><a href="#利率的计算" class="headerlink" title="利率的计算"></a>利率的计算</h3>  复利m次，投资n年 投资终值位A(1+R/m)^mn<br>  当复利频率m趋于无穷大时所对应的的利率被称为连续复利利率，投资终值为Ae^Rn    <h3 id="零息利率"><a href="#零息利率" class="headerlink" title="零息利率"></a>零息利率</h3>  N年的零息利率是指在今天投入资金在连续保持N年后所得的收益率。即息利率（spot rate）或者零息利率（zero rate）<h3 id="债券定价"><a href="#债券定价" class="headerlink" title="债券定价"></a>债券定价</h3>  债券收益率，平价收益率<h3 id="国库券零息利率的确定"><a href="#国库券零息利率的确定" class="headerlink" title="国库券零息利率的确定"></a>国库券零息利率的确定</h3><h3 id="远期利率（forward-interest-rate）"><a href="#远期利率（forward-interest-rate）" class="headerlink" title="远期利率（forward interest rate）"></a>远期利率（forward interest rate）</h3>  由当前零息利率所蕴含出的将来一定期限的利率。<h3 id="远期利率合约"><a href="#远期利率合约" class="headerlink" title="远期利率合约"></a>远期利率合约</h3>  远期利率合约（FRA）是一种场外交易，这种交易约定在将来某一段时间交易的一方将以某一利率介入或者借出固定数量的资金。<h3 id="久期（duration）"><a href="#久期（duration）" class="headerlink" title="久期（duration）"></a>久期（duration）</h3>  债券的久期是指投资者收到所有现金流所要等待的平均时间。<h3 id="曲率"><a href="#曲率" class="headerlink" title="曲率"></a>曲率</h3><h3 id="利率期限结构理论"><a href="#利率期限结构理论" class="headerlink" title="利率期限结构理论"></a>利率期限结构理论</h3>  预期理论（expectation theory），市场分割理论（market segmentation theory），流动性偏好理论（liquidity preference theory）<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3>  对于衍生品交易员来说，国债利率（政府借入自身货币的资金而支付的利率）和LIBOR利率（银行在行业之间为借入短期资产而支付的利率）。</li>
+</ul>
+<hr>
+<ul>
 <li><h2 id="远期和期货价格的确定"><a href="#远期和期货价格的确定" class="headerlink" title="远期和期货价格的确定"></a>远期和期货价格的确定</h2><h3 id="投资资产（investment-asset）和消费资产（consumption-asset）"><a href="#投资资产（investment-asset）和消费资产（consumption-asset）" class="headerlink" title="投资资产（investment asset）和消费资产（consumption asset）"></a>投资资产（investment asset）和消费资产（consumption asset）</h3><p>  股票、证券、黄金、白银都是投资资产，铜、原油和猪肉都是消费资产。</p>
 <h3 id="卖空交易（short-selling）"><a href="#卖空交易（short-selling）" class="headerlink" title="卖空交易（short selling）"></a>卖空交易（short selling）</h3><p>  交易策略是卖出你并不拥有的资产。</p>
 <h3 id="假定与符号"><a href="#假定与符号" class="headerlink" title="假定与符号"></a>假定与符号</h3><p>  市场参与者进行交易是没有手续费<br>  市场参与者对所有交易利润都适用同一税率<br>  市场参与者能够以同样的无风险利率借入和借出资金<br>  当套利机会出现时，市场参与者会马上利用套利机会</p>
@@ -98,15 +88,20 @@
 <p>  F0 &lt; (S0+U)e^rT<br>  卖出商品，节省存储费用，并将所得资金以无风险利率来投资。<br>  进入远期合约的长头寸。</p>
 <p>  便宜收益率（convenience yield）</p>
 <h3 id="持有成本"><a href="#持有成本" class="headerlink" title="持有成本"></a>持有成本</h3><p>  对于无股息的股票而言，持有成本为r，这是因为股票没有存储费用也没有中间收入；对于股指而言，持有成本为r-q，因为股指收益率为q。对于货币而言，持有成本为r-rf;对于提供中间收益率q及储存成本率为u的资产而言，持有成本为r-q+u。</p>
-</li>
+<h3 id="交割选择"><a href="#交割选择" class="headerlink" title="交割选择"></a>交割选择</h3><h3 id="期货价格和预期即期价格"><a href="#期货价格和预期即期价格" class="headerlink" title="期货价格和预期即期价格"></a>期货价格和预期即期价格</h3></li>
+</ul>
+<hr>
+<ul>
+<li><h2 id="利率期货"><a href="#利率期货" class="headerlink" title="利率期货"></a>利率期货</h2></li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;期权、期货及其他衍生产品&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h2&gt;&lt;h3 id=&quot;交易所市场&quot;&gt;&lt;a href=&quot;#交易
+&lt;li&gt;&lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h2&gt;&lt;h3 id=&quot;交易所市场&quot;&gt;&lt;a href
     
     </summary>
     
