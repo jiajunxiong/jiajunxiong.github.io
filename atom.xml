@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-04-20T04:31:19.034Z</updated>
+  <updated>2017-04-21T07:00:20.682Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python Notes</title>
+    <link href="http://jjxiong.me/2017/04/21/Python-Notes/"/>
+    <id>http://jjxiong.me/2017/04/21/Python-Notes/</id>
+    <published>2017-04-21T06:54:55.000Z</published>
+    <updated>2017-04-21T07:00:20.682Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Python-Learning-Notes"><a href="#Python-Learning-Notes" class="headerlink" title="Python Learning Notes"></a>Python Learning Notes</h1><h2 id="csv-reader-need-to-seek-the-file-back-to-the-start"><a href="#csv-reader-need-to-seek-the-file-back-to-the-start" class="headerlink" title="csv.reader() need to seek the file back to the start."></a>csv.reader() need to seek the file back to the start.</h2><pre><code>with opem(&quot;tmp.csv&quot;) as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print row
+    f.seek(0)
+    for row in reader:
+        print row
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Python-Learning-Notes&quot;&gt;&lt;a href=&quot;#Python-Learning-Notes&quot; class=&quot;headerlink&quot; title=&quot;Python Learning Notes&quot;&gt;&lt;/a&gt;Python Learning Notes&lt;/
+    
+    </summary>
+    
+      <category term="Python" scheme="http://jjxiong.me/categories/Python/"/>
+    
+    
+      <category term="Learning" scheme="http://jjxiong.me/tags/Learning/"/>
+    
+  </entry>
   
   <entry>
     <title>Winter is Trumping</title>
