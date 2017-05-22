@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-04-21T07:00:20.682Z</updated>
+  <updated>2017-05-22T08:50:33.870Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CTP客户端开发指南</title>
+    <link href="http://jjxiong.me/2017/05/22/CTP%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/"/>
+    <id>http://jjxiong.me/2017/05/22/CTP客户端开发指南/</id>
+    <published>2017-05-22T07:23:53.000Z</published>
+    <updated>2017-05-22T08:50:33.870Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>CTP客户端开发指南</strong></p>
+<hr>
+<h2 id="CTP"><a href="#CTP" class="headerlink" title="CTP"></a>CTP</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>综合交易平台（Comprehensive Transaction Platform，CTP）是专门为期货公司开发的一套期货经纪业务管理系统，由交易、风险控制和结算三大系统组成。其中，交易系统主要负责订单处理、行情转发及银期转账业务，结算系统负责交易管理、账户管理、经纪人管理、资金管理、费率设置、日终结算、信息查询、以及报表管理等，风控系统则主要在盘中进行高速的实时试算，以及时揭示并控制风险。系统能够同时连通国内四家期货交易所，支持国内商品期货和股指期货的交易结算业务，并能自动生成、报送保证金监控文件和反洗钱监控文件。</p>
+<h3 id="FTD通讯协议"><a href="#FTD通讯协议" class="headerlink" title="FTD通讯协议"></a>FTD通讯协议</h3><p>期货交易数据交换协议（Futures Trading Data Exchange Protocol，FTD），适用于期货交易系统与其下端交易客户端之间进行交易所需的数据交换和通讯。</p>
+<h4 id="通讯模式"><a href="#通讯模式" class="headerlink" title="通讯模式"></a>通讯模式</h4><p>FTD协议涉及到的通讯模式有三种：</p>
+<ol>
+<li>对话通讯模式是由客户端主动发起的通讯请求。<br><img src="http://i.imgur.com/r92Iezg.png" alt=""></li>
+<li>私有通讯模式是指交易系统端主动向某个特定的客户端发送消息<br><img src="http://i.imgur.com/SbKzomn.png" alt=""></li>
+<li>广播通讯模式是指交易系统端主动向所有连接到系统上的客户端都发出相同的信息。<br><img src="http://i.imgur.com/AojDfGf.png" alt=""><br>一般，CTP系统中对话模式下被返回的消息称为响应，而私有模式和广播模式下被返回的消息称为回报。<h4 id="数据流"><a href="#数据流" class="headerlink" title="数据流"></a>数据流</h4>FTD协议中需要区分的两个重要概念就是通讯模式和数据流。数据流表示的是一个单项或双向的，连续的没有重复和遗漏的数据报文序列。通讯模式则是一个数据流进行互动的工作模式。每个数据流应该对应一个通讯模式，但是一个通讯模式下可能有多个数据流。<br>不同的通讯模式有着不同的数据流管理原则。在对话模式下，一个数据流是一个连接的过程，在这个连接内讲保障各个信息的完整性和有序性。但是当连接断开后，重新连接将开始一个新的数据流，这个数据流和原来的数据流没有直接的关系。对于私有和广播模式，一个数据流对应一个交易日内的完成某项功能的所有连接。除非强制指定，否则客户端会在重新连接之后，默认的从上次断开连接的地方继续接收下去。<h3 id="两种数据交换模式"><a href="#两种数据交换模式" class="headerlink" title="两种数据交换模式"></a>两种数据交换模式</h3><h4 id="请求-应答模式"><a href="#请求-应答模式" class="headerlink" title="请求/应答模式"></a>请求/应答模式</h4>客户端程序（Client）产生一个请求，发向服务端程序（Server），服务端程序收到后进行处理，并把结果返回给发出请求的客户端程序。<br><img src="http://i.imgur.com/Fc3Mcmp.png" alt=""><h4 id="发布-订阅模式"><a href="#发布-订阅模式" class="headerlink" title="发布/订阅模式"></a>发布/订阅模式</h4>发布/订阅模式是一种异步消息传输模式。发布者发布消息到主题，订阅者从主题订阅消息。发布者与订阅者保持相对独立，不需要接触即可保证消息的传送。一个FIB应用即可作为发布者，也可作为订阅者。<br><img src="http://i.imgur.com/igWMKSL.png" alt=""><h3 id="CTP系统架构"><a href="#CTP系统架构" class="headerlink" title="CTP系统架构"></a>CTP系统架构</h3><img src="http://i.imgur.com/zyaDyKV.png" alt=""><br>Introduction To Be Done</li>
+</ol>
+<hr>
+<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><h3 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h3><p>API接口包括交易接口（Trader API），风控接口（Risk API），以及结算接口（CSV）。交易接口手中主要是终端软件开发商，对交易终端有特殊需求的个人、机构或自营单位投资者。风控接口和结算接口的主要受众是期货公司，不针对个人投资者开放。</p>
+<h4 id="接口文件"><a href="#接口文件" class="headerlink" title="接口文件"></a>接口文件</h4><p><img src="http://i.imgur.com/EB8gMmp.png" alt=""></p>
+<h3 id="通用规则"><a href="#通用规则" class="headerlink" title="通用规则"></a>通用规则</h3><h4 id="命名规则"><a href="#命名规则" class="headerlink" title="命名规则"></a>命名规则</h4><p><img src="http://i.imgur.com/Kq4fjib.png" alt=""></p>
+<h4 id="接口类"><a href="#接口类" class="headerlink" title="接口类"></a>接口类</h4><p>Spi，包含有所有的响应和回报函数，用于接收综合交易平台发送或交易所发送综合交易平台转发的消息。开发者需要继承该接口类，并实现其中响应的虚函数。<br>Api，包含主动发起请求和订阅的接口函数，开发者直接调用即可。<br><img src="http://i.imgur.com/mcImdHN.png" alt=""></p>
+<h4 id="通用参数"><a href="#通用参数" class="headerlink" title="通用参数"></a>通用参数</h4><p>nRequestID 客户端发送请求时要为该请求指定一个请求编号。交易接口会在响应或回报中返回与该请求相同的请求编号<br>IsLast 当响应函数需要携带的数据包过大时，该数据包会被分割成数个小的数据包并按顺序逐次发送，这种情况下同一个响应函数就是被调用多次，而参数IsLast就是用于描述当前收到的响应数据包是不是所有数据包中的最后一个。<br>RspInfo 该参数用于描述请求执行过程中是否出现错误。<br>error.xml 文件中包含所有可能的错误信息。</p>
+<h4 id="接口的初始化步骤"><a href="#接口的初始化步骤" class="headerlink" title="接口的初始化步骤"></a>接口的初始化步骤</h4><ol>
+<li>创建继承自SPI，并创建出实例，以及API实例。SPI指 CThostFtdcTraderSpi 或 CThostFtdcMdSpi，API指CThostFtdcMdApi 或 CThostFtdcTraderApi</li>
+<li>向API实例注册SPI实例。</li>
+<li>向API实例注册前置地址。交易接口需要注册交易前置地址，行情接口需要注册行情前置地址。</li>
+<li>订阅公有流（仅限交易接口，行情接口不需要）。用于接收公有数据，如合约在场上的交易状态。默认模式是从上次断开连接处继续收取交易所发布数据（Resume模式）开发者还可以指定全部重新获取（Restart），或从登陆后获取（Quick）。</li>
+<li>订阅私有流（仅限交易接口，行情接口不需要）。用于接收私有数据，如报单回报。默认模式是从上次断开连接处继续收取交易所发布数据（Resume模式）开发者还可以指定全部重新获取（Restart），或从登陆后获取（Quick）。</li>
+<li>初始化（Init）</li>
+<li>等待线程退出（Join）</li>
+</ol>
+<hr>
+<h2 id="行情DEMO开发"><a href="#行情DEMO开发" class="headerlink" title="行情DEMO开发"></a>行情DEMO开发</h2><p>### </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;CTP客户端开发指南&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;CTP&quot;&gt;&lt;a href=&quot;#CTP&quot; class=&quot;headerlink&quot; title=&quot;CTP&quot;&gt;&lt;/a&gt;CTP&lt;/h2&gt;&lt;h3 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; cla
+    
+    </summary>
+    
+      <category term="Books" scheme="http://jjxiong.me/categories/Books/"/>
+    
+    
+      <category term="Reading" scheme="http://jjxiong.me/tags/Reading/"/>
+    
+  </entry>
   
   <entry>
     <title>Python Notes</title>
