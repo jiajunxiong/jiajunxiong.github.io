@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-05-22T08:50:33.870Z</updated>
+  <updated>2017-05-25T03:09:05.228Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jjxiong.me/2017/05/22/CTP%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/"/>
     <id>http://jjxiong.me/2017/05/22/CTP客户端开发指南/</id>
     <published>2017-05-22T07:23:53.000Z</published>
-    <updated>2017-05-22T08:50:33.870Z</updated>
+    <updated>2017-05-25T03:09:05.228Z</updated>
     
     <content type="html"><![CDATA[<p><strong>CTP客户端开发指南</strong></p>
 <hr>
@@ -48,7 +48,9 @@
 <li>等待线程退出（Join）</li>
 </ol>
 <hr>
-<h2 id="行情DEMO开发"><a href="#行情DEMO开发" class="headerlink" title="行情DEMO开发"></a>行情DEMO开发</h2><p>### </p>
+<h2 id="行情DEMO开发"><a href="#行情DEMO开发" class="headerlink" title="行情DEMO开发"></a>行情DEMO开发</h2><p><a href="http://pan.baidu.com/s/1c2GNeAO" target="_blank" rel="external">http://pan.baidu.com/s/1c2GNeAO</a></p>
+<hr>
+<h2 id="交易DEMO开发"><a href="#交易DEMO开发" class="headerlink" title="交易DEMO开发"></a>交易DEMO开发</h2><p><a href="http://pan.baidu.com/s/1nvJS7l3" target="_blank" rel="external">http://pan.baidu.com/s/1nvJS7l3</a></p>
 ]]></content>
     
     <summary type="html">
