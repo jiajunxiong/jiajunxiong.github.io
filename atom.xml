@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jjxiong.me/"/>
-  <updated>2017-05-25T03:09:05.228Z</updated>
+  <updated>2017-08-07T03:10:46.121Z</updated>
   <id>http://jjxiong.me/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Despacito</title>
+    <link href="http://jjxiong.me/2017/08/07/Despacito/"/>
+    <id>http://jjxiong.me/2017/08/07/Despacito/</id>
+    <published>2017-08-07T03:05:55.000Z</published>
+    <updated>2017-08-07T03:10:46.121Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Everytime “Despacito” comes on</strong><br><div class="owl-media owl-video owl-vimeo"><iframe src="//player.vimeo.com/video/228611696" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe></div></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Everytime “Despacito” comes on&lt;/strong&gt;&lt;br&gt;&lt;div class=&quot;owl-media owl-video owl-vimeo&quot;&gt;&lt;iframe src=&quot;//player.vimeo.com/video/22861
+    
+    </summary>
+    
+      <category term="Fun" scheme="http://jjxiong.me/categories/Fun/"/>
+    
+    
+      <category term="Interesting" scheme="http://jjxiong.me/tags/Interesting/"/>
+    
+  </entry>
   
   <entry>
     <title>CTP客户端开发指南</title>
